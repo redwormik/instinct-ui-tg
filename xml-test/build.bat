@@ -3,7 +3,7 @@ call "%~dp0\..\run.bat" "%~dp0\all.xml" "%~dp0\..\components.tpl" > "%~dp0\all.j
 call "%~dp0\..\run.bat" "%~dp0\all.xml" "%~dp0\..\html-all.tpl" > "%~dp0\all.html"
 
 call "%~dp0\..\run.bat" "%~dp0\components.xml" "%~dp0\..\components.tpl" > "%~dp0\components.js"
-call "%~dp0\..\run.bat" "%~dp0\data.xml" "%~dp0\..\data.tpl" > "%~dp0\data.js"
+call "%~dp0\..\run.bat" "%~dp0\data.xml" "%~dp0\..\components.tpl" > "%~dp0\data.js"
 call "%~dp0\..\run.bat" "%~dp0\data.xml" "%~dp0\..\html-data.tpl" > "%~dp0\data.html"
 
 call "%~dp0\..\run.bat" "%~dp0\Box.xml" "%~dp0\..\components.tpl" > "%~dp0\Box.js"
